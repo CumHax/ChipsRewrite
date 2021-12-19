@@ -5,7 +5,7 @@ import java.awt.Color;
 import me.cumhax.chipshack.module.Category;
 import me.cumhax.chipshack.module.Module;
 import me.cumhax.chipshack.setting.Setting;
-import me.cumhax.chipshack.util.watermark.RenderUtil;
+import me.cumhax.chipshack.util.RenderUtil;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Gui;
 import net.minecraft.client.gui.ScaledResolution;
