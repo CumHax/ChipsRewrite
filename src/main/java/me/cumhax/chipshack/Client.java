@@ -4,7 +4,7 @@ import me.cumhax.chipshack.event.EventHandler;
 import me.cumhax.chipshack.command.CommandManager;
 import me.cumhax.chipshack.gui.clickgui.ClickGUI;
 import me.cumhax.chipshack.gui.clickgui2.ClickGUI2;
-import me.cumhax.chipshack.gui.clickgui2.font.CustomFontRenderer;
+import me.cumhax.chipshack.gui.clickgui2.font.CustomFontRenderer2;
 import me.cumhax.chipshack.manager.FriendManager;
 import me.cumhax.chipshack.module.ModuleManager;
 import me.cumhax.chipshack.setting.SettingManager;
