@@ -39,7 +39,6 @@ public class ModuleManager
 		modules.add(new KeyPearl());
 		modules.add(new Offhand());
 		modules.add(new Surround("Surround", "Places blocks around you", Category.COMBAT));
-		modules.add(new Trapper());
 
 		// Movement Category
 		modules.add(new Anchor());
