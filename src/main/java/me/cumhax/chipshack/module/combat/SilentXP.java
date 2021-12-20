@@ -4,7 +4,6 @@ import me.cumhax.chipshack.module.Module;
 import me.cumhax.chipshack.module.Category;
 import me.cumhax.chipshack.setting.Setting;
 
-```java
 public class SilentXp extends Module {
 
 Setting lookPitch = new Setting("LookPitch", this, 90, 0, 100);
@@ -53,4 +52,4 @@ Setting lookPitch = new Setting("LookPitch", this, 90, 0, 100);
         mc.player.inventory.currentItem = prvSlot;
         mc.player.connection.sendPacket(new CPacketHeldItemChange(prvSlot));
     }
-}```
+}
