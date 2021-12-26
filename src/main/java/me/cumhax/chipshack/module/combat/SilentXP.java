@@ -3,6 +3,12 @@ package me.cumhax.chipshack.module;
 import me.cumhax.chipshack.module.Module;
 import me.cumhax.chipshack.module.Category;
 import me.cumhax.chipshack.setting.Setting;
+import net.minecraft.init.Items;
+import net.minecraft.network.Packet;
+import net.minecraft.network.play.client.CPacketHeldItemChange;
+import net.minecraft.network.play.client.CPacketPlayer;
+import net.minecraft.network.play.client.CPacketPlayerTryUseItem;
+import net.minecraft.util.EnumHand;
 
 public class SilentXp extends Module {
 
