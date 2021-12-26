@@ -10,9 +10,10 @@ import net.minecraft.network.play.client.CPacketPlayer;
 import net.minecraft.network.play.client.CPacketPlayerTryUseItem;
 import net.minecraft.util.EnumHand;
 
-public class SilentXP
-extends Module {
+public class SilentXP extends Module {
+
     Setting  lookPitch = new Setting("LookPitch", this, 90, 0, 100);
+
     private int delay_count;
     int prvSlot;
 
@@ -53,4 +54,6 @@ extends Module {
         SilentXP.mc.field_71439_g.field_71071_by.field_70461_c = this.prvSlot;
         SilentXP.mc.field_71439_g.field_71174_a.func_147297_a((Packet)new CPacketHeldItemChange(this.prvSlot));
     }
+} 
+
 
