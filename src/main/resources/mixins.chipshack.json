@@ -6,6 +6,7 @@
   "mixins": [
     "MinecraftMixin",
     "NetworkManagerMixin",
+    "ModelPlayerMixin", 
     "TimerMixin"
   ],
   "client": [
