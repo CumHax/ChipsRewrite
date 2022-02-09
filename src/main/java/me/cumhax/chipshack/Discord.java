@@ -23,7 +23,7 @@ public class Discord {
 
     public static void start() {
 
-        String applicationId = "862318235717861376";
+        String applicationId = "931601942461956136";
         String steamId = "";
 
         DiscordRichPresence presence = new DiscordRichPresence();
@@ -33,10 +33,10 @@ public class Discord {
         DiscordRPC.INSTANCE.Discord_UpdatePresence(presence);
 
         presence.startTimestamp = System.currentTimeMillis() / 1000;
-        presence.details = "Vibin' RN. NR";
+        presence.details = "Vibin";
         presence.state = "Chipshack";
-        presence.largeImageKey = "lol";
-        presence.largeImageText = "0.2";
+        presence.largeImageKey = "he";
+        presence.largeImageText = "Rewrite";
 
         new Thread(() ->
         {
@@ -52,7 +52,7 @@ public class Discord {
                     else if (mc.getCurrentServerData() != null) {
                         svr = mc.getCurrentServerData();
                         if (!svr.serverIP.equals("")) {
-                            details = "Owning NN'S";
+                            details = "ballin";
                             state = svr.serverIP;
                             if (svr.populationInfo != null) {
                                 popInfo = svr.populationInfo.split("/");
@@ -64,8 +64,8 @@ public class Discord {
                         }
                     }
                     else {
-                        details = "Vibin' RN. NR";
-                        state = "Listening to mr. worldwide";
+                        details = "Vibin";
+                        state = "masturbating";
                     }
                     if (!details.equals(presence.details) || !state.equals(presence.state)) {
                         presence.startTimestamp = System.currentTimeMillis() / 1000L;
