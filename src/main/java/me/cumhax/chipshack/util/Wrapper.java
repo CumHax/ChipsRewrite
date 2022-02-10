@@ -37,4 +37,5 @@ public class Wrapper {
 
     static {
         mc = Minecraft.getMinecraft();
-    } 
+    }
+} 
