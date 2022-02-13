@@ -35,7 +35,7 @@ public class HoleBlocker extends Module
     private ArrayList<String> options;
 
 private final Setting triggerAble = new Setting("TriggerAble", this, true);
-private final Setting timeOutTicks = new Setting("TimeOutTicks", this, 40, 0, 1);
+private final Setting timeoutTicks = new Setting("TimeOutTicks", this, 40, 0, 1);
 private final Setting blocksPerTick = new Setting("BlocksPerTick", this, 4, 1, 9);
 private final Setting tickDelay = new Setting("TickDelay", this, 0, 0, 10);
 private final Setting rotate = new Setting("Rotate", this, true);
