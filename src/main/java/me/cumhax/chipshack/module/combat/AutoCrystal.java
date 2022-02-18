@@ -15,7 +15,7 @@ import me.cumhax.chipshack.setting.Setting;
 import me.cumhax.chipshack.util.BlockUtil;
 import me.cumhax.chipshack.util.ItemUtil;
 import me.cumhax.chipshack.util.PlayerUtil;
-import me.cumhax.chipshack.gui.clickgui.RenderUtil;
+import me.cumhax.chipshack.gui.clickgui2.RenderUtil;
 import me.cumhax.chipshack.util.Timer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.Minecraft;
