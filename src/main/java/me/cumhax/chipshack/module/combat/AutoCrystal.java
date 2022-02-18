@@ -129,10 +129,10 @@ public class AutoCrystal extends Module
             if (entity2.getHealth() <= 0.0f || mc.player.getDistance(entity2) > (double)(range.getIntegerValue() / 10)) continue;
             for (final BlockPos blockPos : possiblePlacePositions((float) (range.getIntegerValue() / 10), true))
             {
-              //  final double d = PlayerUtil.calcDmg(blockPos, entity2);
-                //if (d < minDmg.getIntegerValue() && entity2.getHealth() + entity2.getAbsorptionAmount() > 4 || d <= dmg || PlayerUtil.calcDmg(blockPos, mc.player) > maxSelf.getIntegerValue()) continue;
-              //  dmg = d;
-              //  pos = blockPos;
+               final double d = PlayerUtil.calcDmg(blockPos, entity2);
+                if (d < minDmg.getIntegerValue() && entity2.getHealth() + entity2.getAbsorptionAmount() > 4 || d <= dmg || PlayerUtil.calcDmg(blockPos, mc.player) > maxSelf.getIntegerValue()) continue;
+                dmg = d;
+                pos = blockPos;
      
 		if (dmg == .5) return;
 		if (nearestCrystal != null && breakTimer.hasTimeElapsed(breakDelay.getIntegerValue() * 50, true)) 
