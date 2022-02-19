@@ -15,7 +15,7 @@ public class LoggerUtil
 	public static void sendMessage(String message, boolean waterMark)
 	{
 		StringBuilder messageBuilder = new StringBuilder();
-		if (waterMark) messageBuilder.append("&7[&5ChipsHack&7] &r");
+		if (waterMark) messageBuilder.append("&7[&5ChipsHaxRewrite&7] &r");
 		messageBuilder.append("&7").append(message);
 		if (Minecraft.getMinecraft().ingameGUI != null) {
 			Minecraft.getMinecraft().ingameGUI.getChatGUI().printChatMessage(new TextComponentString(messageBuilder.toString().replace("&", "\u00A7")));
