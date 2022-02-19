@@ -16,7 +16,7 @@ import me.cumhax.chipshack.manager.ConfigManager;
 
 import java.awt.*;
 import java.io.IOException;
-import org.lwjgl.opengl.Display
+import org.lwjgl.opengl.Display;
 
 @Mod(modid = "chipshackrewrite", name = "ChipsHackRewrite", version = "b1")
 public class Client
