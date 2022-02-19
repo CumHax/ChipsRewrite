@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 public class ConfigManager extends Thread
 {
     private static final Minecraft mc = Minecraft.getMinecraft();
-    private static final File mainFolder = new File(mc.gameDir + File.separator + "ChipsHack");
+    private static final File mainFolder = new File(mc.gameDir + File.separator + "ChipsHaxRewrite");
     private static final String ENABLED_MODULES = "EnabledModules.txt";
     private static final String SETTINGS = "Settings.txt";
     private static final String BINDS = "Binds.txt";
