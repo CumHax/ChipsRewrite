@@ -50,6 +50,15 @@ public class SettingButton
 		{
 			switch (Client.settingManager.getSetting("ClickGUI", "Color").getEnumValue())
 			{
+                                	case "Red":
+						Client.clickGUI.drawGradient(X, Y, X + W , Y + H, new Color(220, 30, 30, 232).getRGB(), new Color(216, 30, 30, 232).getRGB());
+						break;
+					case "Green":
+						Client.clickGUI.drawGradient(X, Y, X + W, Y + H, new Color(30, 220, 30, 232).getRGB(), new Color(30, 216, 30, 232).getRGB());
+						break;
+					case "Blue":
+						Client.clickGUI.drawGradient(X, Y, X + W, Y + H, new Color(30, 30, 220, 232).getRGB(), new Color(30, 30, 216, 232).getRGB());
+						break;
 				case "Purple":
 					Client.clickGUI.drawGradient(X, Y, X + W, Y + H, new Color(140, 0, 180, 232).getRGB(), new Color(136, 0, 180, 232).getRGB());
 					break;
@@ -61,6 +70,15 @@ public class SettingButton
 		{
 			switch (Client.settingManager.getSetting("ClickGUI", "Color").getEnumValue())
 			{
+                             	    case "Red":
+				            Client.clickGUI.drawGradient(X, Y, X + W , Y + H, new Color(220, 30, 30, 232).getRGB(), new Color(216, 30, 30, 232).getRGB());
+					break;
+					case "Green":
+						Client.clickGUI.drawGradient(X, Y, X + W, Y + H, new Color(30, 220, 30, 232).getRGB(), new Color(30, 216, 30, 232).getRGB());
+					break;
+					case "Blue":
+						Client.clickGUI.drawGradient(X, Y, X + W, Y + H, new Color(30, 30, 220, 232).getRGB(), new Color(30, 30, 216, 232).getRGB());
+					break;
 				case "Purple":
 					Client.clickGUI.drawGradient(X, Y, X + W, Y + H, new Color(150, 0, 180, 232).getRGB(), new Color(146, 0, 180, 232).getRGB());
 					break;
