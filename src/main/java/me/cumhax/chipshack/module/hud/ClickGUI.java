@@ -14,11 +14,11 @@ public class ClickGUI extends Module {
     private final Setting color = new Setting("Color", this, Arrays.asList("Purple", "Red", "Blue", "Green", "Rainbow"));
     private final Setting outline = new Setting("Outline", this, false);
 
-	public ClickGUI() 
-{
-        super("ClickGUI", "", Category.HUD);
-        setBind(Keyboard.Y); 
-    }
+	public clickGUI()
+	{
+		super("ClickGUI", "", Category.HUD);
+		setBind(Keyboard.KEY_RSHIFT);
+	
     
 	@Override
 	public void onEnable()
