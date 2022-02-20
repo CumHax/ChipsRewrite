@@ -77,7 +77,6 @@ public class ModuleManager
 		modules.add(new ArmorHud());
 		modules.add(new ClickGUI("ClickGUI", "Toggle modules by clicking on them", Category.HUD));
 		modules.add(new clickG());
-		modules.add(new Coords());
 		modules.add(new CustomFont());
 		modules.add(new Hud());
 		
