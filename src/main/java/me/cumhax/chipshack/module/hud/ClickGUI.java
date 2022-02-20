@@ -18,6 +18,7 @@ public class ClickGUI extends Module {
 	{
 		super("ClickGUI", "", Category.HUD);
 		setBind(Keyboard.KEY_RSHIFT);
+        } 
 	
     
 	@Override
