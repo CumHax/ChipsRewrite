@@ -8,28 +8,18 @@ import org.lwjgl.input.Keyboard;
 
 import java.util.Arrays;
 
+public class ClickGUI extends Module {
 
-public class ClickGUI extends Module
+    private final Setting theme = new Setting("Theme", this, Arrays.asLists("White", "Black"));
+    private final Setting color = new Setting("Color", this, Arrays.asList("Purple", "Red", "Blue", "Green", "Rainbow"));
+    private final Setting outline = new Setting("Outline", this, false);
+
+	public ClickGUI() 
 {
-	public ClickGUI() {
         super("ClickGUI", "", Category.HUD);
+        setBind(Keyboard.KEY_RSHIFT) 
     }
-
-    private final Setting color = new Setting("Color", this, Arrays.asList(
-            "Purple",
-            "Red", 
-            "Blue", 
-            "Green", 
-            "Rainbow"
-    ));
-
-	public ClickGUI(String name, String description, Category category)
-	{
-		super(name, description, category);
-
-		setBind(Keyboard.KEY_RSHIFT);
-	}
-
+    
 	@Override
 	public void onEnable()
 	{
