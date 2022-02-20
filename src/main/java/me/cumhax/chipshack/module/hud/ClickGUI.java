@@ -10,7 +10,7 @@ import java.util.Arrays;
 
 public class ClickGUI extends Module {
 
-    private final Setting theme = new Setting("Theme", this, Arrays.asLists("White", "Black"));
+    private final Setting theme = new Setting("Theme", this, Arrays.asList("White", "Black"));
     private final Setting color = new Setting("Color", this, Arrays.asList("Purple", "Red", "Blue", "Green", "Rainbow"));
     private final Setting outline = new Setting("Outline", this, false);
 
