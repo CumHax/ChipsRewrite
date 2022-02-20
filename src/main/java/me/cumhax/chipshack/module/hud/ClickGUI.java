@@ -14,7 +14,7 @@ public class ClickGUI extends Module {
     private final Setting color = new Setting("Color", this, Arrays.asList("Purple", "Red", "Blue", "Green", "Rainbow"));
     private final Setting outline = new Setting("Outline", this, false);
 
-	public clickGUI()
+	public ClickGUI()
 	{
 		super("ClickGUI", "", Category.HUD);
 		setBind(Keyboard.KEY_RSHIFT);
