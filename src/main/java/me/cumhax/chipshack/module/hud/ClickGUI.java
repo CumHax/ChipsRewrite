@@ -17,6 +17,9 @@ public class ClickGUI extends Module
 
     private final Setting color = new Setting("Color", this, Arrays.asList(
             "Purple",
+            "Red", 
+            "Blue", 
+            "Green", 
             "Rainbow"
     ));
 
