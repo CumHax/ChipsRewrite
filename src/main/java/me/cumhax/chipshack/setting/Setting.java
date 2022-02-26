@@ -101,10 +101,6 @@ public class Setting
 
 	public boolean isEnum() { return type.equals("enum"); }
 
-	public String getEnumValue()
-	{
-		return enumValue;
-	}
 	public boolean getBoolValue()
 	{
 		return boolValue;
