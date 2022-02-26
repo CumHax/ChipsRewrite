@@ -29,7 +29,7 @@ public class FastUse extends Module {
 			((IMinecraft) mc).setRightClickDelayTimer(0);
 		}
 		if(exp.getBooleanValue() && mc.player.getHeldItemMainhand().getItem() == Items.EXPERIENCE_BOTTLE || exp.getBooleanValue() && mc.player.getHeldItemOffhand().getItem() == Items.EXPERIENCE_BOTTLE) {
-			((IMinecraft) mc).setRightClickDelayTimer(0);
+			((IMinecraft) mc.setRightClickDelayTimer(0);
 		}
 		if(endCrystals.getBooleanValue() && mc.player.getHeldItemMainhand().getItem() == Items.END_CRYSTAL || endCrystals.getBooleanValue() && mc.player.getHeldItemOffhand().getItem() == Items.END_CRYSTAL) {
 			((IMinecraft) mc).setRightClickDelayTimer(0);
