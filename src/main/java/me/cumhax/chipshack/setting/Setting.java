@@ -93,9 +93,9 @@ public class Setting
         {
                 return boolValue;
         }
-        public int getEnumValue() 
+        public string getEnumValue() 
         {
-        return enumValue;
+        return this.enumValue;
         }
 
 
