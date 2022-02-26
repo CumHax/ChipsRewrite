@@ -39,6 +39,7 @@ public class ModuleManager
 		modules.add(new BowSpam());
 		modules.add(new AutoTotem());
 		modules.add(new Criticals("Criticals", "Deal critical hits without jumping", Category.COMBAT));
+                modules.add(new HoleFiller());
 		modules.add(new KeyPearl());
 		modules.add(new Offhand());
 		modules.add(new Surround("Surround", "Places blocks around you", Category.COMBAT));
