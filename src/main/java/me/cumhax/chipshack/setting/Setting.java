@@ -92,7 +92,7 @@ public class Setting
 	}
 	public int getIntValue()
 	{
-		return intValue;
+		return IntValue;
 	}
 
 	public boolean isInteger() { return type.equals("int"); }
