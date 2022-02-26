@@ -108,4 +108,7 @@ public class Setting
 	{
 		return enumValues;
 	}
+public boolean getBoolValue() {
+        return boolValue;
+    }
 }
