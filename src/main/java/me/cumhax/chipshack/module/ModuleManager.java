@@ -20,6 +20,7 @@ public class ModuleManager
 	public ModuleManager()
 	{
 		// Render Category
+                modules.add(new Animations());
 		modules.add(new AntiWeather());
 		modules.add(new BlockHighlight( "BlockHighlight", "Highlights the block you're looking at", Category.RENDER));
                 modules.add(new Chams());
