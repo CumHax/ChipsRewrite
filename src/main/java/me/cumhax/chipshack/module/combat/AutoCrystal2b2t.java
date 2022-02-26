@@ -31,7 +31,7 @@ import java.util.List;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class AutoCrystal extends Module
+public class AutoCrystal2b2t extends Module
 {
 	private final Setting attackSpeed = new Setting("AttackSpeed", this, 0, 17, 20);
 	private final Setting placeSpeed = new Setting("PlaceSpeed", this, 0, 18, 20);
@@ -43,7 +43,7 @@ public class AutoCrystal extends Module
 	private final Setting onlyOwn = new Setting("OnlyOwn", this, true);
 	private final Setting facePlaceHealth = new Setting("FacePlaceHealth", this, 0, 7, 16);
 	private final Setting itemSwitch = new Setting("ItemSwitch", this, true);
-	private final Setting color = new Setting("Color", this, Arrays.asList("Static", "Rainbow")));
+	private final Setting color = new Setting("Color", this, Arrays.asList("Static", "Rainbow"));
 	private final Setting red = new Setting("Red", this, 0, 255, 255);
 	private final Setting green = new Setting("Green", this, 0, 20, 255);
 	private final Setting blue = new Setting("Blue", this, 0, 20, 255);
@@ -63,9 +63,9 @@ public class AutoCrystal extends Module
 	private double pitch;
 	private float hue = 0;
 
-	public AutoCrystal2b2t () {
+	public AutoCrystal2b2t () 
+        {
         super ( "AutoCrystal", Category.COMBAT);
-
     }
 
 
