@@ -93,7 +93,7 @@ public class Setting
         {
                 return boolValue;
         }
-        public String getEnumValue() 
+        public int getEnumValue() 
         {
         return enumValue;
         }
