@@ -17,7 +17,8 @@ public class FastUse extends Module {
 	Setting endCrystals = new Setting("End Crystals", this, true);
 	Setting fireworks = new Setting("Fireworks", this, true);
 	
-	public FastUse() {
+	public FastUse() 
+        {
         super("FastUse", "", Category.MISC);
 	}
 
