@@ -88,6 +88,15 @@ public class Setting
         {
                 return this.IntValue;
         }
+        public boolean getBoolValue() 
+        {
+                return boolValue;
+        }
+        public String getEnumValue() 
+        {
+        return this.enumValue;
+        }
+
 
 	public int getMaxIntegerValue()
 	{
