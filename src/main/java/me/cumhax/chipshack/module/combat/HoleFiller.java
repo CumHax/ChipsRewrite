@@ -2,7 +2,7 @@ package me.cumhax.chipshack.module.combat;
 
 import me.cumhax.chipshack.module.Category;
 import me.cumhax.chipshack.module.Module;
-import me.cumhax.chipshck.setting.Setting;
+import me.cumhax.chipshack.setting.Setting;
 import me.cumhax.chipshck.util.PlaceUtil;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
