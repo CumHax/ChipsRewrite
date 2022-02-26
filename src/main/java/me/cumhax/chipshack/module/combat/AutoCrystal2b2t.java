@@ -384,11 +384,8 @@ public class AutoCrystal2b2t extends Module {
 
     @Override
     public void onDisable () {
-        LoggerUtil.sendMessage ( "AutoCrystal Toggled OFF" );
         {
             render=null;
             resetRotation ( );
-        }
-            LoggerUtil.sendMessage ( "AutoCrystal Toggled ON!" );
         }
     }
