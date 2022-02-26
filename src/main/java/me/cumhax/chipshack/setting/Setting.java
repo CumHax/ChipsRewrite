@@ -23,7 +23,7 @@ public class Setting
 		this.name = name;
 		this.module = module;
 		this.integerValue = intValue;
-                this.intValue = IntValue
+                this.intValue = IntValue;
 		this.minIntegerValue = intMinValue;
 		this.maxIntegerValue = intMaxValue;
 		this.type = SettingType.INTEGER;
