@@ -14,6 +14,7 @@ public class Setting
 	private int minIntegerValue;
 	private int maxIntegerValue;
         private int IntValue;
+        private boolean boolValue;
 	private String enumValue;
 	private List<String> enumValues;
 
