@@ -27,10 +27,9 @@ public class Animations extends Module
 	private IAttributeInstance speed;
 	private AttributeModifier attribute;
 
-	public BetterAnimations(String name, Category category, String description)
-	{
-		super(name, category, description);
-	}
+        public Animations() {
+	super("Animations", "", Category.RENDER); 
+	} 
 
 	@SubscribeEvent
 	public void onTick(TickEvent.ClientTickEvent event)
