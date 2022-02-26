@@ -13,6 +13,8 @@ public class Setting
 	private int integerValue;
 	private int minIntegerValue;
 	private int maxIntegerValue;
+	private int intValue;
+	private boolean boolValue;
 	private String enumValue;
 	private List<String> enumValues;
 
@@ -21,6 +23,7 @@ public class Setting
 		this.name = name;
 		this.module = module;
 		this.integerValue = intValue;
+                this.intValue = IntValue
 		this.minIntegerValue = intMinValue;
 		this.maxIntegerValue = intMaxValue;
 		this.type = SettingType.INTEGER;
@@ -87,6 +90,10 @@ public class Setting
 	{
 		return maxIntegerValue;
 	}
+	public int getIntValue()
+	{
+		return intValue;
+	}
 
 	public boolean isInteger() { return type.equals("int"); }
 
@@ -98,6 +105,25 @@ public class Setting
 	{
 		return enumValue;
 	}
+	public boolean getBoolValue()
+	{
+		return boolValue;
+	}
+	public void setEnumValue(String enumValue)
+	{
+		this.enumValue = enumValue;
+	}
+
+	public void setBoolValue(boolean boolValue)
+	{
+		this.boolValue = boolValue;
+	}
+
+	public String getEnumValue()
+	{
+		return enumValue;
+	}
+
 
 	public void setEnumValue(String enumValue)
 	{
@@ -108,7 +134,4 @@ public class Setting
 	{
 		return enumValues;
 	}
-public boolean getBoolValue() {
-        return boolValue;
-    }
 }
