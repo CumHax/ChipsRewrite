@@ -95,7 +95,7 @@ public class Setting
         }
         public String getEnumValue() 
         {
-        return this.enumValue;
+        return enumValue;
         }
 
 
