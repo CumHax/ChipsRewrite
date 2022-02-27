@@ -114,6 +114,11 @@ public class Setting
 	{
 		return enumValue;
 	}
+        public T getValue() 
+        {
+        return value;
+        {
+    
 
 
 	public void setEnumValue(String enumValue)
