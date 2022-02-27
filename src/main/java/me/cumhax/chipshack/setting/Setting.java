@@ -14,6 +14,7 @@ public class Setting
 	private int minIntegerValue;
 	private int maxIntegerValue;
 	private int IntValue;
+        private int GetValue;
 	private boolean boolValue;
 	private String enumValue;
 	private List<String> enumValues;
@@ -24,6 +25,7 @@ public class Setting
 		this.module = module;
 		this.integerValue = intValue;
                 this.IntValue = IntValue;
+                this.GetValue = GetValue;
 		this.minIntegerValue = intMinValue;
 		this.maxIntegerValue = intMaxValue;
 		this.type = SettingType.INTEGER;
@@ -114,9 +116,9 @@ public class Setting
 	{
 		return enumValue;
 	}
-        public T getValue() 
+        public int getValue() 
         {
-        return value;
+        return GetValue;
         } 
     
 
