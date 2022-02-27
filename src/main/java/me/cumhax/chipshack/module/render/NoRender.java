@@ -41,11 +41,11 @@ public class NoRender extends Module {
     @EventTarget
     public void onPacket(EventReceivePacket event) {
         Packet packet = event.getPacket();
-        if ((packet instanceof SPacketSpawnMob && mob.getValue()) ||
-                (packet instanceof SPacketSpawnGlobalEntity && gentity.getValue()) ||
-                (packet instanceof SPacketSpawnObject && object.getValue()) ||
-                (packet instanceof SPacketSpawnExperienceOrb && xp.getValue()) ||
-                (packet instanceof SPacketSpawnPainting && paint.getValue()))
+        if ((packet instanceof SPacketSpawnMob && mob.getIntValue()) ||
+                (packet instanceof SPacketSpawnGlobalEntity && gentity.getIntValue()) ||
+                (packet instanceof SPacketSpawnObject && object.getIntValue()) ||
+                (packet instanceof SPacketSpawnExperienceOrb && xp.getIntValue()) ||
+                (packet instanceof SPacketSpawnPainting && paint.getIntValue()))
             event.setCancelled(true);
     }
 
