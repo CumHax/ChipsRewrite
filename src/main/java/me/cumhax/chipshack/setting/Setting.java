@@ -117,7 +117,7 @@ public class Setting
         public T getValue() 
         {
         return value;
-        {
+        } 
     
 
 
