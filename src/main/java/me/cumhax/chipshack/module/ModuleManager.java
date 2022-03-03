@@ -68,6 +68,7 @@ public class ModuleManager
 
 		// Misc Category
 		modules.add(new AutoDupe("AutoDupe", "Automatically performs the SalC1 TreeMC dupe", Category.MISC));
+                modules.add(new AutoGG());
 		modules.add(new Blink("Blink", "Fake lag", Category.MISC));
 		modules.add(new FakePlayer());
 		modules.add(new FastUse());
