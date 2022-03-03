@@ -21,16 +21,16 @@ import java.util.concurrent.ConcurrentHashMap;
 public class AutoGG extends Module
 {
 	private final Setting timeoutTicks = new Setting("Delay", this, 0, 30, 200);
-	private final Setting message = new Setting("Message", this, "EZ", new ArrayList<>(Arrays.asList("GG", "EZ")));
+	private final Setting message = new Setting("Message", this, Arrays.asList("GG", "EZ"));
 	private final Setting zCounter = new Setting("zCount", this, 1, 3, 100);
 	private final Setting watermark = new Setting("Watermark", this, true);
 	private final Setting naked = new Setting("Naked", this, false);
 
 	private ConcurrentHashMap<String, Integer> targetedPlayers = new ConcurrentHashMap<>();
 
-	public AutoGG(String name, Category category, String description)
-	{
-		super(name, category, description);
+	public AutoGG() 
+        {
+		super("AutoGG", "", Category.MISC);
 	}
 
 	@Override
