@@ -34,7 +34,7 @@ public abstract class MixinRenderEnderCrystal {
 
     @Inject(method = "doRender(Lnet/minecraft/entity/item/EntityEnderCrystal;DDDFF)V", at = @At("RETURN"), cancellable = true)
     public void IdoRender(EntityEnderCrystal entity, double x, double y, double z, float entityYaw, float partialTicks, CallbackInfo callback) {
-        if (Client.moduleManager.getModule("Chams").isEnabled() && Client.settingManager.getSettingEasy("Chams", 6).getBooleanValue()) {
+        if (Client.moduleManager.getModule("Chams").isEnabled() && Client.settingManager.getSetting("Chams", 6).getBooleanValue()) {
             GL11.glPushMatrix();
             float f = (float) entity.innerRotation + partialTicks;
             GlStateManager.translate(x, y, z);
@@ -42,7 +42,7 @@ public abstract class MixinRenderEnderCrystal {
             float f1 = MathHelper.sin(f * 0.2F) / 2.0F + 0.5F;
             f1 = f1 * f1 + f1;
             GL11.glDisable(GL11.GL_DEPTH_TEST);
-            GL11.glColor4f(Client.settingManager.getSettingEasy("Chams", 0).getIntegerValue() / 255f, Client.settingManager.getSettingEasy("Chams", 1).getIntegerValue() / 255f, Client.settingManager.getSettingEasy("Chams", 2).getIntegerValue() / 255f, 0.5f);
+            GL11.glColor4f(Client.settingManager.getSetting("Chams", 0).getIntegerValue() / 255f, Client.settingManager.getSetting("Chams", 1).getIntegerValue() / 255f, Client.settingManager.getSetting("Chams", 2).getIntegerValue() / 255f, 0.5f);
             GL11.glDisable(GL11.GL_TEXTURE_2D);
             if (entity.shouldShowBottom()) {
                 this.modelEnderCrystal.render(entity, 0.0F, f * 3.0F, f1 * 0.2F, 0.0F, 0.0F, 0.0625F);
@@ -50,7 +50,7 @@ public abstract class MixinRenderEnderCrystal {
                 this.modelEnderCrystalNoBase.render(entity, 0.0F, f * 3.0F, f1 * 0.2F, 0.0F, 0.0F, 0.0625F);
             }
             GL11.glEnable(GL11.GL_DEPTH_TEST);
-            GL11.glColor4f(Client.settingManager.getSettingEasy("Chams", 0).getIntegerValue() / 255f, Client.settingManager.getSettingEasy("Chams", 1).getIntegerValue() / 255f, Client.settingManager.getSettingEasy("Chams", 2).getIntegerValue() / 255f, 0.5f);
+            GL11.glColor4f(Client.settingManager.getSetting("Chams", 0).getIntegerValue() / 255f, Client.settingManager.getSetting("Chams", 1).getIntegerValue() / 255f, Client.settingManager.getSetting("Chams", 2).getIntegerValue() / 255f, 0.5f);
             if (entity.shouldShowBottom()) {
                 this.modelEnderCrystal.render(entity, 0.0F, f * 3.0F, f1 * 0.2F, 0.0F, 0.0F, 0.0625F);
             } else {
