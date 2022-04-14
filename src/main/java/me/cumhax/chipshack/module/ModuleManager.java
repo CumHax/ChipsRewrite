@@ -66,7 +66,6 @@ public class ModuleManager
 		modules.add(new AutoRAT());
 		modules.add(new AutoSuicide());
 		modules.add(new BetterChat("BetterChat", "Modifies the look of your ingame chat", Category.CHAT));
-		modules.add(new ChatNotify());
 		modules.add(new ChatSuffix("ChatSuffix", "Adds a suffix to your chat messages", Category.CHAT));
 		modules.add(new Shrug("Shrug", "Adds the shrug emoji when used", Category.CHAT));
 		modules.add(new TrollSuffix());
