@@ -22,9 +22,9 @@ import me.cumhax.chipshack.module.Module;
 public class BedAura extends Module
 {
     private final Setting range = new Setting("Range", this, 4, 0, 6);
-    private final Setting rotate = new Setting("Rotate", this, true)
-    private final Setting dimensionCheck = new Setting("DimensionCheck", this, true)
-    private final Setting refill = new Setting("Ref", this, false)
+    private final Setting rotate = new Setting("Rotate", this, true);
+    private final Setting dimensionCheck = new Setting("DimensionCheck", this, true);
+    private final Setting refill = new Setting("Ref", this, false);
     boolean moving;
     
 	public BedAura()
