@@ -10,7 +10,6 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class ChatNotify extends Module {
     public ChatNotify() {
         super("ChatNotify", "Sends a message when you toggle a module.", Category.CHAT);
-        this.setNeedsKeybind(false);
     }
 
     @SubscribeEvent
