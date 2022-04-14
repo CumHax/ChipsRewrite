@@ -1,4 +1,4 @@
-package me.cumhax.chipshack.module.exploit;
+package me.cumhax.chipshack.module.misc;
 
 import java.util.ArrayList;
 import me.cumhax.chipshack.event.PacketEvent;
