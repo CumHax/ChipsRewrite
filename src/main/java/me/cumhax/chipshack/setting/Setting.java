@@ -87,10 +87,6 @@ public class Setting
         this.a = a;
     }
 
-    public Color getColor() {
-        return new Color((int)this.getR(), (int)this.getG(), (int)this.getB(), (int)this.getA());
-    }
-
 
 	public String getName()
 	{
