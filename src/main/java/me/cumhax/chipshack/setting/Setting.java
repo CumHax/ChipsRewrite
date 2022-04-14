@@ -47,6 +47,50 @@ public class Setting
 		this.enumValues = enumValues;
 		this.type = SettingType.ENUM;
 	}
+	    public Setting(String name, float r, float g, float b, float a) {
+        super(name);
+        this.r = r;
+        this.g = g;
+        this.b = b;
+        this.a = a;
+    }
+
+    public float getR() {
+        return this.r;
+    }
+
+    public void setR(float r) {
+        this.r = r;
+    }
+
+    public float getG() {
+        return this.g;
+    }
+
+    public void setG(float g) {
+        this.g = g;
+    }
+
+    public float getB() {
+        return this.b;
+    }
+
+    public void setB(float b) {
+        this.b = b;
+    }
+
+    public float getA() {
+        return this.a;
+    }
+
+    public void setA(float a) {
+        this.a = a;
+    }
+
+    public Color getColor() {
+        return new Color((int)this.getR(), (int)this.getG(), (int)this.getB(), (int)this.getA());
+    }
+}
 
 	public String getName()
 	{
