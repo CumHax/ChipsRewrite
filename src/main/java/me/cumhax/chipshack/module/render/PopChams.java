@@ -156,4 +156,9 @@ extends Module {
         OpenGlHelper.setLightmapTextureCoords((int)OpenGlHelper.lightmapTexUnit, (float)j, (float)k);
         mc.getRenderManager().renderEntity(entityIn, d0 - PopChams.mc.getRenderManager().viewerPosX, d1 - PopChams.mc.getRenderManager().viewerPosY, d2 - PopChams.mc.getRenderManager().viewerPosZ, f, partialTicks, p_188388_3_);
     }
+        public static enum RenderMode {
+        Wireframe,
+        Fill,
+        Both;
+        }
 }
