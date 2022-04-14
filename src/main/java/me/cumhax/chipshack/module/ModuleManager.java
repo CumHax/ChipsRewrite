@@ -22,11 +22,11 @@ public class ModuleManager
 		// Render Category
                 modules.add(new Animations());
 		modules.add(new AntiWeather());
-		modules.add(new BlockHighlight( "BlockHighlight", "Highlights the block you're looking at", Category.RENDER));
+		modules.add(new BlockHighlight());
                 modules.add(new Chams());
                 modules.add(new ExtraTab());
 		modules.add(new Fullbright());
-		modules.add(new HoleESP( "HoleESP", "Renders safe holes from Crystals", Category.RENDER));
+		modules.add(new HoleESP());
 		modules.add(new NightMode());
                 modules.add(new ViewModel());
 		
