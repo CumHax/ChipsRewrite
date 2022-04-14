@@ -25,8 +25,8 @@ extends Module {
     public Setting renderMode =new Setting ("RenderMode", this, Arrays.asList("Wireframe", "Fill", "Both"));
     public Setting color = new Setting("Color", this, 0.0f, 125.0f, 255.0f, 45.0f);
     public Setting rainbow = new Setting("Rainbow", this, false);
-    public Setting rainbowSpeed = new Setting("RainbowSpeed", this, 6.0f, 1.0f, 10.0f);
-    public Setting lineWidth = new Setting("LineWidth", this, 2.0f, 1.0f, 4.0f);
+    public Setting rainbowSpeed = new Setting("RainbowSpeed", this, 6, 1, 10);
+    public Setting lineWidth = new Setting("LineWidth", this, 2, 1., 4);
     private static final HashMap<EntityOtherPlayerMP, Long> popFakePlayerMap = new HashMap();
 
     public PopChams() {
