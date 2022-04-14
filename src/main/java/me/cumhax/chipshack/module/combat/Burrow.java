@@ -11,7 +11,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumFacing;
 import java.util.Iterator;
 import net.minecraft.block.Block;
-import cat.yoink.dream.mixin.mixins.accessor.IMinecraft;
+import me.cumhax.chipshack.mixin.mixins.accessor.IMinecraft;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.Vec3i;
 import net.minecraft.util.math.Vec3d;
@@ -28,7 +28,7 @@ import net.minecraft.network.play.client.CPacketEntityAction;
 import net.minecraft.client.Minecraft;
 import me.cumhax.chipshack.setting.SettingType;
 import me.cumhax.chipshack.module.Category;
-import me.cumhax.chipshack.util.TimerUtil;
+import me.cumhax.chipshack.util.Timer;
 import me.cumhax.chipshack.setting.Setting;
 import me.cumhax.chipshack.module.Module;
 
@@ -39,7 +39,7 @@ public class Burrow extends Module
     int lastHotbarSlot;
     int playerHotbarSlot;
     boolean isSneaking;
-    TimerUtil timer;
+    Timer timer;
     
 	public Burrow()
 	{
