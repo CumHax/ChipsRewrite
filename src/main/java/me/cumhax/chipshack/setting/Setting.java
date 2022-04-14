@@ -119,7 +119,15 @@ public class Setting
         public int getValue() 
         {
         return GetValue;
-        } 
+        }
+	public Boolean getValue() 
+	{
+        return value;
+        }
+        public void toggleValue() 
+	{
+        value = !value;
+        }
     
 
 
