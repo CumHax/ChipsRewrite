@@ -3,7 +3,7 @@ package me.cumhax.chipshack.module;
 public enum Category
 {
 	COMBAT("Combat"),
-	RENDER("Render"),
+	RENDER("Visuals"),
 	MOVEMENT("Movement"),
 	CHAT("Chat"),
 	MISC("Miscellaneous"),
