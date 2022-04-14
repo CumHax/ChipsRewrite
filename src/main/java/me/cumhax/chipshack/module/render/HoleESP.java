@@ -43,7 +43,7 @@ public class HoleESP extends Module
 
 	public HoleESP()
 	{
-		super("HoleESP", "", Category.MOVEMENT);
+		super("HoleESP", "", Category.RENDER);
 		}
 
     @SubscribeEvent
