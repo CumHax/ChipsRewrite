@@ -5,6 +5,7 @@ import java.util.Map;
 import me.cumhax.chipshack.event.PlayerDeathEvent;
 import me.cumhax.chipshack.event.TotemPopEvent;
 import me.cumhax.chipshack.module.Module;
+import me.cumhax.chipshack.module.Category;
 import me.cumhax.chipshack.setting.Setting;
 import me.cumhax.chipshack.util.font.RenderUtil;
 import net.minecraft.client.entity.EntityOtherPlayerMP;
