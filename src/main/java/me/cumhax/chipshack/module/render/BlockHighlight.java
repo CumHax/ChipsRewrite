@@ -29,6 +29,7 @@ public class BlockHighlight extends Module
 	public BlockHighlight()
 	{
 		super("BlockHighlight", "", Category.MOVEMENT);
+	}
 
     @SubscribeEvent
     public void renderWorld(RenderWorldLastEvent event)
