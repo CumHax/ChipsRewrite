@@ -44,6 +44,7 @@ public class HoleESP extends Module
 	public HoleESP()
 	{
 		super("HoleESP", "", Category.MOVEMENT);
+		}
 
     @SubscribeEvent
     public void onTick(TickEvent.ClientTickEvent tickEvent)
