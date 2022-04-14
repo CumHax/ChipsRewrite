@@ -55,6 +55,7 @@ public class ModuleManager
 		modules.add(new LongJump("LongJump", "Jumps far", Category.MOVEMENT));
 		modules.add(new NoPush());
 		modules.add(new NoSlow());
+		modules.add(new PacketFly());
 		modules.add(new ReverseStep());
 		modules.add(new Speed("Speed", "Allows you to move faster", Category.MOVEMENT));
 		modules.add(new Sprint("Sprint", "Automatically toggles sprint for you", Category.MOVEMENT));
@@ -65,6 +66,7 @@ public class ModuleManager
 		modules.add(new AutoRAT());
 		modules.add(new AutoSuicide());
 		modules.add(new BetterChat("BetterChat", "Modifies the look of your ingame chat", Category.CHAT));
+		modules.add(new ChatNotify());
 		modules.add(new ChatSuffix("ChatSuffix", "Adds a suffix to your chat messages", Category.CHAT));
 		modules.add(new Shrug("Shrug", "Adds the shrug emoji when used", Category.CHAT));
 		modules.add(new TrollSuffix());
