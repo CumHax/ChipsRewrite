@@ -76,6 +76,7 @@ public class ModuleManager
 		modules.add(new FakePlayer());
 		modules.add(new FastUse());
 		modules.add(new Godmode());
+		modules.add(new MultiTask());
 		modules.add(new PacketCanceller());
 		modules.add(new PacketMine("PacketMine", "Mine blocks with packets", Category.MISC));
 		modules.add(new RPC());
