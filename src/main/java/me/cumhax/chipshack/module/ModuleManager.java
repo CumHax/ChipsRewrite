@@ -34,9 +34,10 @@ public class ModuleManager
 		modules.add(new KillAura());
 		modules.add(new Auto32K("Auto32K", "Automatically handles 32ks for you in combat", Category.COMBAT));
 		modules.add(new AutoArmor());
-		modules.add(new AutoCrystal2b2t());
+		modules.add(new AutoCrystal());
 		modules.add(new AutoLog("AutoLog", "Automatically logs out when your health is low", Category.COMBAT));
 		modules.add(new AutoTrap("AutoTrap", "Traps players", Category.COMBAT));
+		modules.add(new BedAura());
 		modules.add(new BowSpam());
 		modules.add(new AutoTotem());
 		modules.add(new Criticals("Criticals", "Deal critical hits without jumping", Category.COMBAT));
@@ -48,7 +49,9 @@ public class ModuleManager
 		// Movement Category
 		modules.add(new Anchor());
 		modules.add(new AntiVoid ());
+		modules.add(new BoatFly());
 		modules.add(new FastWeb());
+		modules.add(new InventoryMove());
 		modules.add(new LongJump("LongJump", "Jumps far", Category.MOVEMENT));
 		modules.add(new NoPush());
 		modules.add(new NoSlow());
@@ -72,6 +75,8 @@ public class ModuleManager
 		modules.add(new Blink("Blink", "Fake lag", Category.MISC));
 		modules.add(new FakePlayer());
 		modules.add(new FastUse());
+		modules.add(new Godmode());
+		modules.add(new PacketCanceller());
 		modules.add(new PacketMine("PacketMine", "Mine blocks with packets", Category.MISC));
 		modules.add(new RPC());
 		modules.add(new Timer("Timer", "Speeds up your game", Category.MISC));
