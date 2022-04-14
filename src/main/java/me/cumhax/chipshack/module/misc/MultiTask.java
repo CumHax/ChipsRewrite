@@ -14,6 +14,7 @@ public class MultiTask extends Module
 	public MultiTask()
 	{
 		super("MultiTask", "", Category.MISC);
+    }
     
     @SubscribeEvent
     public void onMouseInput(final InputEvent.MouseInputEvent event) {
