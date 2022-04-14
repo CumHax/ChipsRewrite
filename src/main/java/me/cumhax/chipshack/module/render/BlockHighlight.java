@@ -26,10 +26,9 @@ public class BlockHighlight extends Module
 
     private float hue = 0f;
 
-    public BlockHighlight(String name,String description , Category category)
-    {
-        super(name, description, category);
-    }
+	public BlockHighlight()
+	{
+		super("BlockHighlight", "", Category.MOVEMENT);
 
     @SubscribeEvent
     public void renderWorld(RenderWorldLastEvent event)
