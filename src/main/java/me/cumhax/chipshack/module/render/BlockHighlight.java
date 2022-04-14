@@ -28,7 +28,7 @@ public class BlockHighlight extends Module
 
 	public BlockHighlight()
 	{
-		super("BlockHighlight", "", Category.MOVEMENT);
+		super("BlockHighlight", "", Category.RENDER);
 	}
 
     @SubscribeEvent
