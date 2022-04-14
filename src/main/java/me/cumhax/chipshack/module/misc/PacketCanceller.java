@@ -34,7 +34,7 @@ extends Module {
     private ArrayList<Packet> PacketsToIgnore = new ArrayList();
 
     public PacketCanceller() {
-        super("PacketCanceller", "", Category.EXPLOIT);
+        super("PacketCanceller", "", Category.MISC);
 
     }
 
