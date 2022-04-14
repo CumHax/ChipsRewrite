@@ -90,7 +90,7 @@ public class Setting
     public Color getColor() {
         return new Color((int)this.getR(), (int)this.getG(), (int)this.getB(), (int)this.getA());
     }
-}
+
 
 	public String getName()
 	{
