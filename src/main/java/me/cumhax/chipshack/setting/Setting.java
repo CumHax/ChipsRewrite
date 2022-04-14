@@ -120,6 +120,10 @@ public class Setting
         {
         return GetValue;
 	}
+	public int getValueEnum()
+	{
+	return GetValueEnum;
+	}
 
 
 	public void setEnumValue(String enumValue)
