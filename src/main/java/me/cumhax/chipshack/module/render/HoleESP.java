@@ -41,10 +41,9 @@ public class HoleESP extends Module
     private final List<HoleUtil> holes = new ArrayList<>();
     private final ICamera camera = new Frustum();
 
-    public HoleESP(String name, String description, Category category)
-    {
-        super(name, description, category);
-    }
+	public HoleESP()
+	{
+		super("HoleESP", "", Category.MOVEMENT);
 
     @SubscribeEvent
     public void onTick(TickEvent.ClientTickEvent tickEvent)
