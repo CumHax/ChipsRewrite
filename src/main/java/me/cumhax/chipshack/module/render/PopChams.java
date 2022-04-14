@@ -20,7 +20,7 @@ import org.lwjgl.opengl.GL11;
 public class PopChams
 extends Module {
     public Setting timeToRemove = new Setting("TimeToRemove", this, 1500.0f, 0.0f, 3000.0f);
-    public Setting self = new Setting("Self", this true);
+    public Setting self = new Setting("Self", this, true);
     public Setting renderMode =new Setting ("RenderMode", this, Arrays.asList("Wireframe", "Fill", "Both"));
     public Setting color = new Setting("Color", this, 0.0f, 125.0f, 255.0f, 45.0f);
     public Setting rainbow = new Setting("Rainbow", this, false);
