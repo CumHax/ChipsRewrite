@@ -19,7 +19,7 @@ extends Module {
         if (event.getPopCount() == 1) {
             LoggerUtil.sendMessage((Object)ChatFormatting.AQUA + event.getEntity().getDisplayName().getFormattedText() + (Object)ChatFormatting.GRAY + " has just popped a totem.", event.getEntity().getEntityId());
         } else if (event.getPopCount() > 1) {
-            LoggerUtil.sendMessage((Object)ChatFormatting.AQUA + event.getEntity().getDisplayName().getFormattedText() + (Object)ChatFormatting.GRAY + " has just popped " + ((Object)ChatFormatting.RED + event.getPopCount() + ((Object)ChatFormatting.GRAY + " totems.", event.getEntity().getEntityId());
+            LoggerUtil.sendMessage((Object)ChatFormatting.AQUA + event.getEntity().getDisplayName().getFormattedText() + (Object)ChatFormatting.GRAY + " has just popped " + (Object)ChatFormatting.RED + event.getPopCount() + (Object)ChatFormatting.GRAY + " totems.", event.getEntity().getEntityId());
         }
     }
 
