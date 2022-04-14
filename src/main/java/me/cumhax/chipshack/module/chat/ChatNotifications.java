@@ -5,7 +5,7 @@ import me.cumhax.chipshack.event.DeathEvent;
 import me.cumhax.chipshack.event.ModuleToggleEvent;
 import me.cumhax.chipshack.module.Module;
 import me.cumhax.chipshack.module.Category;
-import me.cumhax.chipshack.setting.Setting
+import me.cumhax.chipshack.setting.Setting;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
