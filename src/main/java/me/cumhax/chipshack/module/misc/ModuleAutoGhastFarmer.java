@@ -56,7 +56,7 @@ public class ModuleAutoGhastFarmer extends Module {
         ModuleAutoGhastFarmer.mc.player.sendChatMessage("#stop");
     }
 
-    @Override
+    
     public void onUpdate() {
         if (ModuleAutoGhastFarmer.mc.player == null || ModuleAutoGhastFarmer.mc.world == null) {
             return;
@@ -73,10 +73,10 @@ public class ModuleAutoGhastFarmer extends Module {
             this.ghastZ = (int)entity.posZ;
             this.ding = true;
         }
-        if (this.ding) {
-            if (notifySound.getValue()) {
-                ModuleAutoGhastFarmer.mc.player.playSound(SoundEvents.BLOCK_ANVIL_DESTROY, Float.intBitsToFloat(Float.floatToIntBits(5.2897425f) ^ 0x7F294592), Float.intBitsToFloat(Float.floatToIntBits(5.5405655f) ^ 0x7F314C50));
-            }
+      //  if (this.ding) {
+         //   if (notifySound.getValue()) {
+            //    ModuleAutoGhastFarmer.mc.player.playSound(SoundEvents.BLOCK_ANVIL_DESTROY, Float.intBitsToFloat(Float.floatToIntBits(5.2897425f) ^ 0x7F294592), Float.intBitsToFloat(Float.floatToIntBits(5.5405655f) ^ 0x7F314C50));
+          //  }
             this.ding = false;
         }
         ArrayList entityItems = new ArrayList();
