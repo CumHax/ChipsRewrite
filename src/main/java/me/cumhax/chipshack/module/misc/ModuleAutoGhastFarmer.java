@@ -77,8 +77,8 @@ public class ModuleAutoGhastFarmer extends Module {
          //   if (notifySound.getValue()) {
             //    ModuleAutoGhastFarmer.mc.player.playSound(SoundEvents.BLOCK_ANVIL_DESTROY, Float.intBitsToFloat(Float.floatToIntBits(5.2897425f) ^ 0x7F294592), Float.intBitsToFloat(Float.floatToIntBits(5.5405655f) ^ 0x7F314C50));
           //  }
-            this.ding = false;
-        }
+           // this.ding = false;
+      //  }
         ArrayList entityItems = new ArrayList();
         entityItems.addAll(ModuleAutoGhastFarmer.mc.world.loadedEntityList.stream().filter(ModuleAutoGhastFarmer::lambda$onUpdate$0).map(ModuleAutoGhastFarmer::lambda$onUpdate$1).filter(ModuleAutoGhastFarmer::lambda$onUpdate$2).collect(Collectors.toList()));
         Entity itemEnt = null;
