@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import me.cumhax.chipshack.module.Module;
 import me.cumhax.chipshack.setting.Setting;
-import me.cumhax.chipshack.module.Module;
+import me.cumhax.chipshack.module.Category;
 
 public class OffhandNew extends Module
 {
