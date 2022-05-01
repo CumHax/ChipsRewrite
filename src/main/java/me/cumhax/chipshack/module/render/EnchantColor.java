@@ -5,12 +5,13 @@ import java.awt.Color;
 import me.cumhax.chipshack.module.Module;
 import me.cumhax.chipshack.setting.Setting;
 import me.cumhax.chipshack.module.Category;
+
 public class EnchantColor extends Module {
 
 	
-	private final Setting red = new Setting("Red", this, 255, 0, 255);
-        private final Setting green = new Setting("Green", this, 20, 0, 255);
-        private final Setting blue = new Setting("Blue", this, 20, 0, 255);
+	private final Setting r = new Setting("Red", this, 255, 0, 255);
+        private final Setting g = new Setting("Green", this, 20, 0, 255);
+        private final Setting b = new Setting("Blue", this, 20, 0, 255);
 	private final Setting rainbow = new Setting("Rainbow", this, false);
 
 	public EnchantColor() 
