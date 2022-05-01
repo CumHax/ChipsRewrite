@@ -87,7 +87,6 @@ public class ModuleManager
         // Hud Category
 		modules.add(new ArmorHud());
 		modules.add(new ClickGUI());
-		modules.add(new clickG());
 		modules.add(new CustomFont());
 		modules.add(new Hud());
 		
