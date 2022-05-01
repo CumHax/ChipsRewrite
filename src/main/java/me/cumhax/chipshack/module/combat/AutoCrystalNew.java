@@ -55,7 +55,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-public class AutoCrystal extends Module {
+public class AutoCrystalNew extends Module {
 
 	private final Setting logic = new Setting("Logic", this, Arrays.asList("BREAKPLACE", "PLACEBREAK"));
 	private final Setting place = new Setting("Place", this, true);
@@ -88,9 +88,10 @@ public class AutoCrystal extends Module {
 	boolean mainhand = false;
 	boolean offhand = false;
 
-	public AutoCrystal(String name, String description, Category category) {
-		super(name, description, category);
-	}
+	    public AutoCrystalNew() 
+            {
+        super("AutoCrystalNew", "kekw", Category.COMBAT);
+    }
 
 	public static void placeCrystalOnBlock(BlockPos pos, EnumHand hand) {
 		RayTraceResult result = Minecraft.getMinecraft().world
