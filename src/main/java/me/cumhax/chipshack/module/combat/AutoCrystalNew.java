@@ -6,7 +6,7 @@ import me.cumhax.chipshack.setting.Setting;
 import me.cumhax.chipshack.module.Category;
 import me.cumhax.chipshack.util.LoggerUtil;
 import me.cumhax.chipshack.util.InteractHelper;
-import me.cumhax.chipshack.util.RenderUtil;
+import me.cumhax.chipshack.gui.clickgui2.font.RenderUtil;
 import me.cumhax.chipshack.util.Timah;
 import me.cumhax.chipshack.event.PacketReceiveEvent;
 import me.cumhax.chipshack.event.RenderEvent;
@@ -71,12 +71,12 @@ public class AutoCrystalNew extends Module {
 	private final Setting placeRange = new Setting("PlaceRange", this, 5, 0, 6);
 	private final Setting maxSelfDmg = new Setting("MaxSeldDMG", this, 8, 0, 36);
 	private final Setting minDmg = new Setting("MinDMG", this, 8, 0, 20);
-	private final Setting facePlace = new Setting("FacePlace", this, 8, 0, 36);
+	private final Setting faceplace = new Setting("FacePlace", this, 8, 0, 36);
         private final Setting red = new Setting("Red", this, 255, 0, 255);
         private final Setting green = new Setting("Green", this, 20, 0, 255);
         private final Setting blue = new Setting("Blue", this, 20, 0, 255);
         private final Setting alpha = new Setting("Alpha", this, 100, 0, 255);
-	private final Setting slabRendet = new Setting("SlabRender", this, true);
+	private final Setting slabRender = new Setting("SlabRender", this, true);
 	private final Setting rainbow = new Setting("Rainbow", this, true);
         private final Setting renderDmg = new Setting("RenderDMG", this, false);
 
