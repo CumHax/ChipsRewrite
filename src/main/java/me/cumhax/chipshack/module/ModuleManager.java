@@ -24,6 +24,7 @@ public class ModuleManager
 		modules.add(new AntiWeather());
 		modules.add(new BlockHighlight());
                 modules.add(new Chams());
+                modules.add(new EnchantColor()) ;
                 modules.add(new ExtraTab());
 		modules.add(new Fullbright());
 		modules.add(new HoleESP());
