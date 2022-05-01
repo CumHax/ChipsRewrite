@@ -35,6 +35,7 @@ public class ModuleManager
 		modules.add(new Auto32K("Auto32K", "Automatically handles 32ks for you in combat", Category.COMBAT));
 		modules.add(new AutoArmor());
 		modules.add(new AutoCrystal());
+                modules.add(new AutoCrystalNew());
 		modules.add(new AutoLog("AutoLog", "Automatically logs out when your health is low", Category.COMBAT));
 		modules.add(new AutoTrap("AutoTrap", "Traps players", Category.COMBAT));
 		modules.add(new BedAura());
