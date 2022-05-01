@@ -1,6 +1,6 @@
 package me.cumhax.chipshack.module.combat;
 
-import me.cumhax.chipshack.friend.Friends;
+import me.cumhax.chipshack.friends.Friends;
 import me.cumhax.chipshack.module.Module;
 import me.cumhax.chipshack.setting.Setting;
 import me.cumhax.chipshack.module.Category;
@@ -10,7 +10,7 @@ import me.cumhax.chipshack.util.RenderUtil;
 import me.cumhax.chipshack.util.Timah;
 import me.cumhax.chipshack.event.PacketReceiveEvent;
 import me.cumhax.chipshack.event.RenderEvent;
-import me.cumhax.chipshack.mixins.accessor.IRenderManager;
+import me.cumhax.chipshack.mixin.mixins.accessor.IRenderManager;
 import ibxm.Player;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
