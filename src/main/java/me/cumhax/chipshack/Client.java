@@ -3,7 +3,6 @@ package me.cumhax.chipshack;
 import me.cumhax.chipshack.event.EventHandler;
 import me.cumhax.chipshack.command.CommandManager;
 import me.cumhax.chipshack.gui.clickgui.ClickGUI;
-import me.cumhax.chipshack.gui.clickgui2.ClickGUI2;
 import me.cumhax.chipshack.gui.clickgui2.font.CustomFontRenderer2;
 import me.cumhax.chipshack.manager.FriendManager;
 import me.cumhax.chipshack.module.ModuleManager;
@@ -28,7 +27,6 @@ public class Client
 	public static CustomFontRenderer customFontRenderer;
 	public static ClickGUI clickGUI;
 	public static CustomFontRenderer2 customFontRenderer2;
-	public static ClickGUI2 clickGUI2;
 	public static CommandManager commandManager;
 	public static FriendManager friendManager;
 
@@ -42,7 +40,6 @@ public class Client
 		customFontRenderer2 = new CustomFontRenderer2(new Font("Arial", Font.PLAIN, 19), true, false);
 		customFontRenderer = new CustomFontRenderer(new Font("Verdana", Font.PLAIN, 19), true, false);
 		clickGUI = new ClickGUI();
-		clickGUI2 = new ClickGUI2();
 
 		ConfigManager.loadConfig();
 
