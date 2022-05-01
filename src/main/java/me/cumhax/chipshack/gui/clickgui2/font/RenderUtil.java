@@ -14,7 +14,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import org.lwjgl.opengl.GL11;
 
-import cat.yoink.dream.mixin.mixins.accessor.IRenderManager;
+import me.cumhax.chipshack.mixin.mixins.accessor.IRenderManager;
 
 import java.awt.*;
 import java.util.HashMap;
