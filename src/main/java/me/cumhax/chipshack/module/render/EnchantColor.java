@@ -1,7 +1,7 @@
 package me.cumhax.chipshack.module.render;
 
 import java.awt.Color;
-
+import me.cumhax.chipshack.module.ModuleManager;
 import me.cumhax.chipshack.module.Module;
 import me.cumhax.chipshack.setting.Setting;
 import me.cumhax.chipshack.module.Category;
