@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import me.cumhax.chipshack.mixin.mixins.accessor.IMinecraft;
+import me.cumhax.chipshack.mixin.loader.IMinecraft;
 
 public class InteractHelper {
 
