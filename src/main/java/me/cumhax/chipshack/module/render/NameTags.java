@@ -113,7 +113,7 @@ public class NameTags extends Module {
 		}
 
 		int width = FontUtil.getStringWidth(nameS + pingS + gamemodeS + healthS) / 2;
-		RenderUtil.drawBorderedRect(-width - 3, 8, width + 2, 21, 1.2, 0x75000000,
+		RenderUtil.drawBorderedRect(-width - 3, 8, width + 2, 21, 1.2, 0x75000000);
 				rainbowOutline.getBooleanValue() ? rainbow(0) : new Color(0, 0, 0, 140).getRGB());
 		mc.fontRenderer.drawStringWithShadow(healthColor + nameS + pingS + gamemodeS + healthS, -width, 10,
 				new Color(255, 255, 255, 255).getRGB());
