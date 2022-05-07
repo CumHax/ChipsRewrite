@@ -111,9 +111,9 @@ public class NameTags extends Module {
 			}
 			healthS += (MathHelper.ceil(player.getHealth() + player.getAbsorptionAmount()));
 		}
-/*
+
 		int width = FontUtil.getStringWidth(nameS + pingS + gamemodeS + healthS) / 2;
-		RenderUtil.drawBorderedRect(-width - 3, 8, width + 2, 21, 1.2, 0x75000000);
+		RenderUtil.drawBorderedRect(-width - 3, 8, width + 2, 21, 1.2
 				rainbowOutline.getBooleanValue() ? rainbow(0) : new Color(0, 0, 0, 140).getRGB());
 		mc.fontRenderer.drawStringWithShadow(healthColor + nameS + pingS + gamemodeS + healthS, -width, 10,
 				new Color(255, 255, 255, 255).getRGB());
@@ -124,7 +124,7 @@ public class NameTags extends Module {
 				xOffset -= 8;
 			}
 		}
-*/
+
 		ItemStack renderStack;
 		player.getHeldItemMainhand();
 		xOffset -= 8;
