@@ -12,9 +12,10 @@ import net.minecraft.network.play.client.CPacketPlayer;
 
 public class QuickEXP
 extends Module {
-    private static final Mode mode = new Mode("Mode", "Packet", "AutoMend", "Throw");
-    public static Slider delay = new Slider("Throw Delay", 0.0, 0.0, 4.0, 0);
-    private static final Checkbox footEXP = new Checkbox("FootEXP", true);
+    private final Setting mode = new Setting("Mode", this, Arrays.asList("Packet", "AutoMend", "Throw"));  
+	private final Setting delay = new Setting("Throw Delay", this, 0, 0, 4, 0);
+    	private final Setting footEXP = new Setting("FootEXP", this, true);
+
 
     public QuickEXP() {
         super("QuickEXP", "Throws EXP much faster", Category.COMBAT);
