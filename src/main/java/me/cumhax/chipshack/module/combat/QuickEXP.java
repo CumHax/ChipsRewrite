@@ -1,7 +1,8 @@
 package me.cumhax.chipshack.module.combat;
 
 import me.cumhax.chipshack.module.Module;
-import me.cumhax.chipshacky.setting.checkbox.Checkbox;
+import me.cumhax.chipshack.module.Category;
+import me.cumhax.chipshack.setting.Setting;
 import me.cumhax.chipshack.util.InventoryUtil;
 import me.cumhax.chipshack.util.PlayerUtil;
 import net.minecraft.init.Items;
