@@ -49,4 +49,5 @@ extends Module {
             }
             mc.rightClickMouse();
         }
-    
+    }
+}
