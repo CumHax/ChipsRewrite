@@ -27,6 +27,7 @@ public class ModuleManager
                 modules.add(new ExtraTab());
 		modules.add(new Fullbright());
 		modules.add(new HoleESP());
+		modules.add(new NameTags());
 		modules.add(new NightMode());
                 modules.add(new ViewModel());
 		
@@ -45,6 +46,7 @@ public class ModuleManager
                 modules.add(new HoleFiller());
 		modules.add(new KeyPearl());
 		modules.add(new Offhand());
+		modules.add(new OffhandNew());
 		modules.add(new Surround("Surround", "Places blocks around you", Category.COMBAT));
 
 		// Movement Category
