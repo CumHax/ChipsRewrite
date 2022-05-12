@@ -49,4 +49,4 @@ extends Module {
             }
             mc.rightClickMouse();
         }
-    }
+    
