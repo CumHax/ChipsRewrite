@@ -2,6 +2,7 @@
 <h3 align="center">Minecraft utility mod for anarchy servers</h3>  
   
 Public cuz i got bored of this
+Eralp has no credit for it
 ## Installing
 
  1. Install Minecraft Forge for version 1.12.2
